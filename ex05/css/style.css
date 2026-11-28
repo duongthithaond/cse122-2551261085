@@ -1,0 +1,50 @@
+.trang {
+    max-width: 760px;
+    margin: 32px auto;
+    padding: 0 16px;
+}
+
+h1 {
+    color: #C2185B;
+    font-size: 26px;
+    text-align: center;
+    margin: 0 0 22px;
+}
+
+.bo-cuc-2-cot {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 24px;
+}
+
+
+.nhan-muc {
+    display: inline-block;
+    background-color: #FFC0CB;
+    color: #000;
+    font-weight: bold;
+    padding: 4px 10px;
+    font-size: 16px;
+    margin: 0;
+}
+
+.ds-vuong,
+.ds-tron {
+    line-height: 1.9;
+    padding-left: 22px;
+}
+
+.ds-vuong {
+    list-style-type: square;
+}
+
+.ds-tron {
+    list-style-type: circle;
+}
+
+.ban-quyen {
+    color: #0000EE;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+}
